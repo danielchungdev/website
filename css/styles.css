@@ -97,3 +97,85 @@ ol {
 .icon:hover {
     filter: invert(0.5) sepia(1);
 }
+
+.linktree{
+    display: none;
+}
+
+@media (max-width:480px)  {
+
+    .content{
+        width: 100%;
+    }
+
+    .title{
+        font-family: 'Playfair Display', serif;
+        font-size: 300%;
+    }
+
+    .ultimate-container{
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        align-items: center;
+    }
+
+    .meaning{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 100%;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .pronunciation{
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 150%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .noun{
+        font-family: 'Noto Serif', serif;
+        font-size: 100%;
+        font-style: italic;
+        margin-top: 0;
+    }
+    
+    .classification{
+        font-family: 'Roboto', sans-serif;
+        font-size: 100%;
+        font-weight: 100;
+    }
+
+
+    .meaning li {
+        width: 100%;
+    }
+
+    .contact{
+        display: none;
+    }
+
+    .linktree{
+        display: block;
+    }
+
+    .linktree a:link{
+        text-decoration: underline;
+    }
+
+    .linktree a:visited{
+        text-decoration: none;
+        color: black;
+
+    }
+
+}
