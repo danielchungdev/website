@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.ultimate-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 400%;
+}
+
+.pronunciation{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 200%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.noun{
+    font-family: 'Noto Serif', serif;
+    font-size: 150%;
+    font-style: italic;
+    margin-top: -10px;
+}
+
+.classification{
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    font-weight: 100;
+}
+
+.content {
+    width: 60%;
+    height: auto;
+}
+
+ol {
+    padding-left: 1em;
+}
+
+.center-dot{
+    font-weight: 900;
+    font-size: 100%;
+}
+
+.location{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+.meaning{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 120%;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.qrcode{
+    width: 80%;
+}
+
+.meaning li {
+    width: 80%;
+}
+
+.socials{
+    display: block;
+}
+
+.icon:hover {
+    filter: invert(0.5) sepia(1);
+}
