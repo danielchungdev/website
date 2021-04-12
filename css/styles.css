@@ -102,6 +102,24 @@ ol {
     display: none;
 }
 
+.meaning li a{
+    color: rgb(23, 126, 173);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.meaning li a:visited{
+    color: rgb(72, 156, 196);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.meaning li a:hover{
+    color: rgb(23, 126, 173);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
 @media (max-width:480px)  {
 
     .content{
