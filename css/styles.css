@@ -1,199 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
-.container {
+
+.pad{
+    margin-top: 3%;
+}
+
+.introduction{
     display: flex;
-    justify-content: space-evenly;
-    width: 80vw;
-    height: 100vh;
-    justify-content: center;
+    flex-direction: column;
+    align-content: center;
     align-items: center;
 }
 
-.ultimate-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.title{
-    font-family: 'Playfair Display', serif;
-    font-size: 400%;
-}
-
-.pronunciation{
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 200%;
-    margin-top: -10px;
-    margin-bottom: -10px;
-}
-
-.noun{
-    font-family: 'Noto Serif', serif;
-    font-size: 150%;
-    font-style: italic;
-    margin-top: -10px;
-}
-
-.classification{
-    font-family: 'Roboto', sans-serif;
-    font-size: 150%;
-    font-weight: 100;
-}
-
-.content {
-    width: 60%;
-    height: auto;
-}
-
-ol {
-    padding-left: 1em;
-}
-
-.center-dot{
-    font-weight: 900;
-    font-size: 100%;
-}
-
-.location{
-    font-family: 'Roboto', sans-serif;
-    font-size: 100%;
-}
-
-.meaning{
+.introduction-text {
     margin-top: 2%;
     margin-bottom: 2%;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 120%;
 }
 
-.bold{
-    font-weight: 600;
+.introduction-text > p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5rem;
 }
 
-.contact{
-    display: flex;
+.introduction-text > p > span {
+    font-family: 'Kalam', cursive;
+    font-weight: 800;
+}
+
+.rit{
+    color: #FF7A00;
+}
+
+.svg-container{
+    text-align: center;
+}
+
+.banner{
+    display: grid;
+    height: 8rem;
+    background-color: #FF7878;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+}
+
+.banner-title{
+    font-family: 'Oswald', sans-serif;
+
+    color: white;
+    font-size: 3rem;
+}
+
+.portfolio{
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.portfolio > div a, p{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.portfolio a:hover{
+    color: #FF7878;
+    transition: 1s;
+}
+
+.portfolio > div > a > img {
     width: 30%;
-}
-
-.qrcode{
-    width: 80%;
-}
-
-.meaning li {
-    width: 80%;
-}
-
-.socials{
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.icon:hover {
-    filter: invert(0.5) sepia(1);
+
+.tech-stack{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.linktree{
-    display: none;
+.tech-stack > div > i{
+    font-size: 10rem;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
 }
 
-.meaning li a{
-    color: rgb(23, 126, 173);
+.banner > div {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner > div > a {
     text-decoration: none;
-    font-weight: bolder;
 }
 
-.meaning li a:visited{
-    color: rgb(72, 156, 196);
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-.meaning li a:hover{
-    color: rgb(23, 126, 173);
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-@media (max-width:480px)  {
-
-    .content{
-        width: 100%;
-    }
-
-    .title{
-        font-family: 'Playfair Display', serif;
-        font-size: 300%;
-    }
-
-    .ultimate-container{
-        margin-left: 5%;
-        margin-right: 5%;
-        display: flex;
-        align-items: center;
-    }
-
-    .meaning{
-        margin-top: 2%;
-        margin-bottom: 2%;
-        font-family: 'Quicksand', sans-serif;
-        font-size: 100%;
-    }
-
-    .container {
-        display: flex;
-        align-items: center;
-        width: 100%;
-    }
-
-    .pronunciation{
-        font-family: 'Roboto', sans-serif;
-        font-style: italic;
-        font-weight: 300;
-        font-size: 150%;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    
-    .noun{
-        font-family: 'Noto Serif', serif;
-        font-size: 100%;
-        font-style: italic;
-        margin-top: 0;
-    }
-    
-    .classification{
-        font-family: 'Roboto', sans-serif;
-        font-size: 100%;
-        font-weight: 100;
-    }
-
-
-    .meaning li {
-        width: 100%;
-    }
-
-    .contact{
-        display: none;
-    }
-
-    .linktree{
-        display: block;
-    }
-
-    .linktree a:link{
-        text-decoration: underline;
-    }
-
-    .linktree a:visited{
-        text-decoration: none;
-        color: black;
-
-    }
-
+.banner > div > a > i{
+    font-size: 2rem;
 }
