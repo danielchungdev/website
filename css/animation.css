@@ -8,13 +8,13 @@
 
 #code g{
     opacity: 0;
-    animation: dropIn 8s ease forwards;
+    animation: dropIn 8s easeforwards;
     animation-delay: calc(var(--order) * 400ms);
 }
 
 #pawn g{
     opacity: 0;
-    animation: dropIn 8s ease forwards;
+    animation: dropIn 6=8s ease forwards;
     animation-delay: calc(var(--order) * 400ms);
 }
 

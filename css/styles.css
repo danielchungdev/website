@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* overflow-x: hidden; */
 }
 
 
@@ -18,7 +19,6 @@
 }
 
 .introduction-text {
-    margin-top: 2%;
     margin-bottom: 2%;
 }
 
@@ -38,6 +38,7 @@
 
 .svg-container{
     text-align: center;
+    width: 80%;
 }
 
 .banner{
@@ -54,6 +55,7 @@
     color: white;
     font-size: 3rem;
 }
+
 
 .portfolio{
     margin-top: 5%;
@@ -75,7 +77,6 @@
 
 .portfolio > div > a > img {
     width: 30%;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -94,10 +95,10 @@
 
 .tech-stack > div > i{
     font-size: 10rem;
-    margin-right: 2.5%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 2.5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
 }
 
 .banner > div {
@@ -113,4 +114,174 @@
 
 .banner > div > a > i{
     font-size: 2rem;
+}
+
+@media only screen and (max-width: 1100px){ 
+    .tech-stack{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .svg-container{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 970px){ 
+    .pad{
+        margin-top: 30%;
+    }
+
+
+    .introduction{
+        display: block;
+        margin-left: 5;
+        margin-bottom: 30%;
+        text-align: center;
+    }
+
+    .tech-stack{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .svg-container{
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){ 
+
+    .desktop-animation{
+        display: none;
+    }
+
+
+    .pad{
+        margin-top: 30%;
+    }
+
+    .introduction{
+        display: block;
+        margin-left: 5;
+        margin-bottom: 30%;
+        text-align: center;
+    }
+
+    .introduction-text {
+        margin-bottom: 2%;
+    }
+
+    .introduction-text > p{
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+    }
+
+    .introduction-text > p > span {
+        font-family: 'Kalam', cursive;
+        font-weight: 800;
+    }
+
+    .rit{
+        color: #FF7A00;
+    }
+
+    .svg-container{
+        text-align: center;
+    }
+
+    .banner{
+        display: grid;
+        height: 8rem;
+        background-color: #FF7878;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .banner-title{
+        font-family: 'Oswald', sans-serif;
+
+        color: white;
+        font-size: 3rem;
+    }
+
+
+    .portfolio{
+        margin-top: 5%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .portfolio > div a, p{
+        font-family: 'Oswald', sans-serif;
+        color: black;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+
+    .mobile-hide{
+        display: none;
+    }
+
+    .portfolio a:hover{
+        color: #FF7878;
+        transition: 1s;
+    }
+
+    .portfolio > div > a > img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .tech-stack{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .tech-stack > div > i{
+        font-size: 5rem;
+        margin-right: 2.5%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 2.5%;
+    }
+
+    .banner > div {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .banner > div > a {
+        text-decoration: none;
+    }
+
+    .banner > div > a > i{
+        font-size: 2rem;
+    }
 }
