@@ -104,10 +104,12 @@ p{
   font-weight: 700;
   font-family: 'Roboto Mono', sans-serif;
   color: white;
+  text-decoration: none;
 }
 
 .project:hover{
   transition: 1s;
+  text-decoration: none;
 
   background-color: #70c2b2;
 
