@@ -104,11 +104,12 @@ p{
   font-weight: 700;
   font-family: 'Roboto Mono', sans-serif;
   color: white;
+  text-decoration: none;
+
 }
 
 .project:hover{
   transition: 1s;
-
   background-color: #70c2b2;
 
 }
@@ -126,9 +127,13 @@ p{
 }
 
 a, a:hover, a:focus, a:active {
-  text-decoration: none;
-  color: inherit;
+  color: rgb(22, 22, 22);
   transition: 0.5s;
+}
+
+a:hover{
+  color: #60e7cc;
+
 }
 
 .desc{
@@ -136,6 +141,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .project:hover{
+  text-decoration: none;
   color: #60e7cc;
 }
 
