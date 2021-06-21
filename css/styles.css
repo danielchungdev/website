@@ -62,8 +62,8 @@ h2 {
 }
 
 .introduction{
-  margin-left: 5rem;
-  margin-top: 10rem;
+  justify-self: center;
+  align-self: center;
   z-index: 1;
 
 }
